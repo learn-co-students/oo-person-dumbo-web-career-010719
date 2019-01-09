@@ -41,8 +41,6 @@ class Person
     end
   end
 
-
-
   def clean?
     if @hygiene > 7
       true
