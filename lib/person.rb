@@ -9,10 +9,6 @@ class Person
     @hygiene = hygiene
   end
 
-  # def name
-  #   @name
-  # end
-
   def bank_account
     @bank_account
   end
@@ -66,7 +62,6 @@ class Person
   end
 
   def take_bath
-  #  @hygiene += 4
 
     self.hygiene += 4
 
@@ -78,9 +73,7 @@ class Person
   end
 
   def work_out
-  #  @hygiene -= 3
     self.hygiene -= 3
-  #  @happiness += 2
     self.happiness += 2
 
     if @hygiene < 0
